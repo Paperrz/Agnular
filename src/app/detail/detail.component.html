@@ -1,0 +1,22 @@
+<section class="container">
+  <div class="row mx-auto mt-5">
+      <div class="col-md-2 mx-auto">
+          <h1 class="text-center"><img width="100" [src]="pokemon.picture" alt=""></h1>
+          <div class="row">
+            <button class="btn btn-outline-warning btn-active m-1"(click)="edit()">Editer</button>
+              <button class="btn btn-outline-danger btn-active m-1"(click)="remove()">Liberer</button>
+              <button class="btn btn-outline-primary btn-active m-1"(click)="back()">Retour</button>
+          </div>
+      </div>
+      <div class="col-md-10 mx-auto m-5">
+          <h3 class="text-center">{{pokemon.name}}</h3>
+          <ul class="list-group">
+              <li class="list-group-item"><strong>TYPE:</strong> {{pokemon.type}}</li>
+              <li class="list-group-item"><strong>ATTAQUE:</strong> {{pokemon.cp}}</li>
+              <li class="list-group-item"><strong>VIE:</strong> {{pokemon.hp}}</li>
+              <li class="list-group-item"><strong>CAPTURE:</strong> {{pokemon.created | date:'dd/MM/yyyy'}}</li>
+          </ul>
+      </div>
+  </div>
+</section>
+

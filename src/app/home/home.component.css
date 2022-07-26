@@ -1,0 +1,36 @@
+.box{
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  margin: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.box:hover {
+  background-color: aquamarine;
+  filter: grayscale();
+}
+.feu{
+  background-color: rgb(211, 91, 91);
+}
+.eau{
+  background-color: rgb(3, 184, 230);
+}
+.insecte{
+  background-color: brown;
+}
+.normal
+{
+  background-color: gray;
+}
+.plante{
+  background-color: green;
+}
+.fee{
+  background-color: pink;
+}
+.elec{
+  background-color: yellow;
+}
+.poison{
+  background-color: rgb(255, 0, 255);
+}
